@@ -1,7 +1,7 @@
 FROM php:5.6-apache
 ENV TERM=xterm
 LABEL maintainer="contact@panz.fr"
-RUN apt install ca-certificates -y
+RUN apt update && apt install -y ca-certificates
 COPY --chown=www-data:www-data MCManager/ /var/www/html/
 RUN docker-php-ext-install pdo mysql
 RUN docker-php-ext-install pdo mysqli
