@@ -1,0 +1,41 @@
+.App {
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row
+  }
+  
+  .terminal {
+      width: 60%;
+      height: 40%;
+      margin: 10px;
+      padding: 10px;
+      -webkit-animation: fadeup 2s; /* Safari, Chrome and Opera > 12.1 */
+      -moz-animation: fadein 2s; /* Firefox < 16 */
+       -ms-animation: fadein 2s; /* Internet Explorer */
+        -o-animation: fadein 2s; /* Opera < 12.1 */
+           animation: fadein 2s;
+    }
+    
+  textarea {
+      color:#e8e8e8;
+      border: none !important;
+      overflow: hidden !important;
+      outline: none !important;
+      -webkit-box-shadow: none !important;
+      -moz-box-shadow: none !important;
+      box-shadow: none !important;
+      resize: none !important; 
+      background-color: #404040 !important;
+      font-family: "fira-mono","PT Sans Mono","Monaco","Iconsolas","Droid Sans Mono",monospace;
+      font-size:14px;
+      border-radius: 10px;
+      padding: 5px;
+      height: 200px;
+      width: 100%;
+      justify-content: left;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      align-items: center;
+    }
